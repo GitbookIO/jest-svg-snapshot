@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "build",
+    "pretty": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true
+  },
+  "lib": ["es2017"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "build"]
+}
